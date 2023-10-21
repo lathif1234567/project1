@@ -1,0 +1,62 @@
+* {
+  font-family: "roboto", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --head-bg-color: rgb(128,169,177) ;
+}
+
+.head {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--head-bg-color);
+}
+.head .container .row .kiri .content h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.head .container .row .kiri .content p {
+  font-weight: regular;
+  font-size: 20px;
+  color: #fff;
+}
+.head .container .row .kiri .content .btn-primary {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: white;
+  color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+  border-radius: 15px;
+}
+.head .container .row .kiri .content :hover {
+  border-radius: 15px;
+  color: #01575f;
+}
+.head .container .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+.about-us {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.about-us .row .kanan .tengah h3 {
+  text-align: end;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: var(--main-bg-color);
+}
+.about-us .row .kanan .tengah p {
+  text-align: end;
+}
+.about-us .row .kanan .tengah .btn-primary {
+  background-color: var(--main-bg-color);
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
